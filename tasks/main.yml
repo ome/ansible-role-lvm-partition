@@ -7,6 +7,7 @@
     vg: "{{ lvm_vgname }}"
     lv: "{{ lvm_lvname }}"
     size: "{{ lvm_lvsize }}"
+    shrink: "{{ lvm_shrink | default(True) }}"
     opts: "{{ lvm_lvopts | default(None) }}"
 
 - name: storage | format
