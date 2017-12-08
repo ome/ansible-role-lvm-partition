@@ -10,7 +10,7 @@
     shrink: "{{ lvm_shrink | default(True) }}"
     opts: "{{ lvm_lvopts | default(None) }}"
 
-- name: storage | format
+- name: storage | filesystem
   become: yes
   filesystem:
     fstype: "{{ lvm_lvfilesystem }}"
