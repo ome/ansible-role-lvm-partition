@@ -1,8 +1,7 @@
+Enhancements of the original openmicroscopy/ansible-role-lvm-parition code
+
 LVM Partition
 =============
-
-[![Build Status](https://travis-ci.org/openmicroscopy/ansible-role-lvm-partition.svg)](https://travis-ci.org/openmicroscopy/ansible-role-lvm-partition)
-[![Ansible Role](https://img.shields.io/ansible/role/14765.svg)](https://galaxy.ansible.com/openmicroscopy/lvm-partition/)
 
 Additional LVM logical volumes to be created and mounted.
 
@@ -10,6 +9,12 @@ Existing LVs will be resized.
 
 Role Variables
 --------------
+
+Default variables:
+
+- `lvm_mount_dump`: 1 
+- `lvm_mount_opts`: defaults
+- `lvm_mount_passno`: 2
 
 These variables must be defined (defaults aren't provided):
 
@@ -27,4 +32,4 @@ Optional variables:
 Author Information
 ------------------
 
-ome-devel@lists.openmicroscopy.org.uk
+info@safeincyberspace.com
