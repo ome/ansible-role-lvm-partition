@@ -2,3 +2,6 @@
 # defaults file for roles/lvm-partitions
 
 lvm_lvopts:
+lvm_mount_dump: "1"
+lvm_mount_opts: "defaults"
+lvm_mount_passno: "2"
