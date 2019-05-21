@@ -22,7 +22,8 @@
   mount:
     name: "{{ lvm_lvmount }}"
     src: /dev/{{ lvm_vgname }}/{{ lvm_lvname }}
-    dump: "1"
-    passno: "2"
+    dump: "{{ lvm_mount_dump }}"
+    opts: "{{ lvm_mount_opts }}"
+    passno: "{{ lvm_mount_passno }}"
     fstype: "{{ lvm_lvfilesystem }}"
     state: mounted
