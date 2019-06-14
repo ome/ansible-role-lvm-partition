@@ -1,8 +1,8 @@
 LVM Partition
 =============
 
-[![Build Status](https://travis-ci.org/openmicroscopy/ansible-role-lvm-partition.svg)](https://travis-ci.org/openmicroscopy/ansible-role-lvm-partition)
-[![Ansible Role](https://img.shields.io/ansible/role/14765.svg)](https://galaxy.ansible.com/openmicroscopy/lvm-partition/)
+[![Build Status](https://travis-ci.org/ome/ansible-role-lvm-partition.svg)](https://travis-ci.org/ome/ansible-role-lvm-partition)
+[![Ansible Role](https://img.shields.io/ansible/role/14765.svg)](https://galaxy.ansible.com/ome/lvm_partition/)
 
 Additional LVM logical volumes to be created and mounted.
 
