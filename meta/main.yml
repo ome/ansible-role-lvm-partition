@@ -6,9 +6,9 @@ galaxy_info:
   license: BSD
   min_ansible_version: 2.2
   platforms:
-  - name: EL
-    versions:
-    - 7
+    - name: EL
+      versions:
+        - 7
   role_name: lvm_partition
   galaxy_tags: ['lvm', 'system']
 
