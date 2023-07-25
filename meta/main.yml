@@ -10,6 +10,7 @@ galaxy_info:
       versions:
         - 7
   role_name: lvm_partition
+  namespace: ome
   galaxy_tags: ['lvm', 'system']
 
 dependencies: []
