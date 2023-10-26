@@ -2,7 +2,7 @@ LVM Partition
 =============
 
 [![Actions Status](https://github.com/ome/ansible-role-lvm-partition/workflows/Molecule/badge.svg)](https://github.com/ome/ansible-role-lvm-partition/actions)
-[![Ansible Role](https://img.shields.io/ansible/role/41255.svg)](https://galaxy.ansible.com/ome/lvm_partition/)
+[![Ansible Role](https://img.shields.io/badge/ansible--galaxy-lvm_partition-blue.svg)](https://galaxy.ansible.com/ui/standalone/roles/ome/lvm_partition/)
 
 Additional LVM logical volumes to be created and mounted.
 
