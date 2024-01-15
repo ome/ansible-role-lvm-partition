@@ -12,5 +12,3 @@ galaxy_info:
   role_name: lvm_partition
   namespace: ome
   galaxy_tags: ['lvm', 'system']
-
-dependencies: []
